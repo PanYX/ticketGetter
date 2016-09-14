@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket Getter</title>
+</head>
+<body>
+    <p>正在搜票。。。</p>
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    <script>
+        $.post('TicketGetter.php',function(msg){
+            console.log(111);
+            console.log(msg);
+        });
+    </script>
+</body>
+</html>
